@@ -32,15 +32,18 @@
 				<configuration>
 				<classifier>mule-application</classifier>
 				<cloudHubDeployment>
-				<username>pavannnn</username>
-				<environment>Sandbox</environment>
-				<password>India@01</password>
-				<workers>1</workers>
-				<applicationName>world-timezone-app</applicationName>
-				<workerType>Micro</workerType>
-				<muleVersion>4.3.0</muleVersion>
-				
-				</cloudHubDeployment>
+						<username>pavannnn</username>
+						<password>India@01</password>
+						<environment>Sandbox</environment>
+						<applicationName>worldTimezone-demo-api</applicationName>
+						<muleVersion>4.3.0</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<key>value</key>
+						</properties>
+					</cloudHubDeployment>
                 </configuration>
 			</plugin>
 		</plugins>
