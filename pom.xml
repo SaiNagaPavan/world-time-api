@@ -31,6 +31,16 @@
 				<extensions>true</extensions>
 				<configuration>
 				<classifier>mule-application</classifier>
+				<cloudHubDeployment>
+				<username>pavannnn</username>
+				<environment>Sandbox</environment>
+				<password>India@01</password>
+				<workers>1</workers>
+				<applicationName>world-timezone-app</applicationName>
+				<workerType>Micro</workerType>
+				<muleversion>4.3.0</muleversion>
+				
+				</cloudHubDeployment>
                 </configuration>
 			</plugin>
 		</plugins>
