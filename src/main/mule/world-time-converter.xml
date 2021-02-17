@@ -22,5 +22,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		</http:request>
 		<logger level="INFO" doc:name="Logger" doc:id="6ad91ad5-c00a-478c-bc27-780bcbbbff71" message="checking jenkins poll"/>
 		<logger level="INFO" doc:name="Logger" doc:id="d79aabdc-7b14-4f85-80c1-36c1bc9edb6e" message="Adding second logger"/>
+		<logger level="INFO" doc:name="Logger" doc:id="e93f7f9c-d2aa-4a27-b126-44c578f15ea7" message="checking github"/>
 	</flow>
 </mule>
